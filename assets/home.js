@@ -56,3 +56,9 @@ document.getElementById('cash-out-button').addEventListener('click',function(){
     
  
 })
+
+document.getElementById('transfer-button').addEventListener('click',function(){
+       document.getElementById('add-money-parent').style.display='none'
+           document.getElementById('cash-out-parent').style.display='none'
+           document.getElementById('transfer-money-parent').style.display='block'
+})
